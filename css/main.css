@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#errors {
+  padding-left: 100px;
+  font-size: 12px;
+  color: #cc0000;
+}
+#tweets {
+  font-size: 14px;
+  padding-left: 100px;
+}
+#successful {
+  color: #006600;
+}
+#rejected {
+  color: #cc0000;
+}
+#successful span {
+  font-size: 12px;
+  color: #000;
+}
+
+form .row {
+  padding: 15px 0;
+  width: 370px;
+}
+
+form .row label {
+  display: block;
+  float: left;
+  width: 100px;
+}
+
+form .row input {
+  padding: 8px;
+}
+
+form .row textarea {
+  width: 250px;
+  height: 100px;
+  padding: 8px;
+}
+
+form .row button {
+  float: right;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; 
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
